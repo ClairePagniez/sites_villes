@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Bonjour, vous êtes chez Novaa, cabinet d'expertise comptable à Paris*</title>
+  <title>Bonjour, vous êtes chez Novaa, cabinet d'expertise comptable à Paris</title>
   <link rel="stylesheet" href="css/style-novaa.css">
   <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css">
   <link rel="stylesheet" href="css/reset.css">  
@@ -26,11 +26,12 @@
 
 			<ul>
 				<li><a href="index.php"><img src="images/logo-novaa.png" alt="Voici le joli logo de novaa" /></a></li>
+				<li class="prems">Vous <br />souhaitez</li>
 				<li><a href="creer.php" title="Créez votre boite avec nous">Cr&eacute;er<br /> une entreprise</a></li>
 				<li><a href="trouver.php" title="Voici comment notre expertise opère">Trouver votre <br /> expert comptable</a></li>
 				<li><a href="obtenir.php" title="Notre meilleur prix pour vous">Obtenir <br /> nos tarifs</a></li>
 				<li><a href="savoir.php" title="Tout, tout, tout, vous saurez tout sur le cabinet">En savoir + <br /> sur Novaa</a></li>
-				<li class="tel-contact rose">Paris 9, 11 rue Scribe  - 01 53 83 78 30<br><span class="violine tel-contact" >Rouen, 57 av. de Bretagne - 02 32 08 18 18</span></li>
+				<li class="tel-contact rose">01 53 83 78 30</span><br><span>11 rue Scribe Paris 9</span></li>
 			</ul>
 		</nav>
 	</header>
@@ -38,10 +39,10 @@
 	<div class="clearfix"></div>
 	
 	<!-- Debut CTA lateraux  -->
-	<a href="https://www.comptaneo.com" class="cta-login">Accès client</a>
+	<a href="http://secure.tiime.fr" class="cta-login">Accès client</a>
 
-	<a href="popup-rappel.php" class="fancy cta-rappel">Rappelez moi</a>
-	<a href="popup-devis.php" class="fancy cta-devis">Devis gratuit</a>
+	<a href="http://www.novaa-expertise.com/site/popup-rappel.php" class="fancy cta-rappel">Rappelez moi</a>
+	<a href="http://www.novaa-expertise.com/site/popup-devis.php" class="fancy cta-devis">Devis gratuit</a>
 	<!-- Fin CTA lateraux  -->
 
 	
@@ -82,8 +83,8 @@
 		</div>
 		</div>
 			<div id="hp-form">
-				<form class="formulaire" method="post" action="merci.php">
-					<h2 class="blanc">Rencontrez notre cabinet comptable:<br /><span>Prenez RDV ou obtenez un DEVIS</span></h2>
+				<form class="formulaire" method="post" action="/site/merci.php">
+					<h2 class="blanc">Et nous pouvons aussi nous rencontrer.<br /><span>Prenez RDV, obtenez un DEVIS</span></h2>
 					<p><label for="nom-lead">Nom</label><input type="text" id="nom-lead" name="nom-lead" type="text" /></p>
 					<p><label for="activite-lead">Activité</label><input type="text" id="activite-lead" name="activite-lead" type="text" /></p>
 					<p><label for="postal-lead">Code postal</label><input type="text" id="postal-lead" name="postal-lead" type="text" /></p>
@@ -110,23 +111,20 @@
 				<li class="bg-bleu"><span>Choix du régime<br /> social et fiscal <br /></span></li>
 				<li class="bg-bleu"><span>Organisation<br/>à la gestion</span></li>
 				<li class="bg-bleu"><span>Formalités<br /> juridiques</span></li>
+				<li class="prix"><p class="duree bleu">Votre <strong>création</strong></p><p class="since">en ce moment </p><p class="le-prix crea bleu">offerte</p></li>
 
 			</ul>
 			<div class="clearfix"></div>
 			<ul class="list-presta">
-
 				<li class="bg-rose"><span>Saisie <br /> comptable</span></li>
 				<li class="bg-rose"><span>Déclarations<br /> TVA</span></li>
 				<li class="bg-rose"><span>Déclarations <br />IS</span></li>
 				<li class="bg-rose"><span>Assurance<br /> Contrôle fiscal</span></li>
 				<li class="bg-violine"><span>Super outil de pilotage</span></li>
-				<li class="bg-violine"><span>Le plein <br />de conseils</span></li>
-				<li class="bg-noir" style="padding-top:13px!important;"><span>Membre de l'ordre des experts comptables</span></li>
-
-
 				<li class="bg-rose salarie" style="display:none;"><span>DUE + Adhésion aux caisses</span></li>
 				<li class="bg-rose salarie" style="display:none;"><span>Bulletin <br/>de paie</span></li>
 				<li class="bg-rose salarie" style="display:none;"><span>Déclarations sociales</span></li>
+				<li class="prix"><p class="duree rose">Chaque <strong>mois</strong></p><p class="since">A partir de </p><p class="le-prix rose"><span id="prix-mensuel">99€</span><span class="mini">ht/mois</span></p></li>
 
 			</ul>
 			<div class="clearfix"></div>
@@ -139,17 +137,18 @@
 				<li class="bg-violet"><span>PV rémunération gérant</span></li>
 				<li class="bg-violet"><span>Dépot<br /> des comptes</span></li>
 				<li class="bg-violet"><span>Echéancier <br /> TNS </span></li>
+				<li class="prix"><p class="duree violet">En fin <strong>d'année</strong></p><p class="since">A partir de </p><p class="le-prix violet">499€<span class="mini">ht/an</span></p></li>
 
 			</ul>
 			<div class="clearfix"></div>
-			<div class="btn-presta"><a class="bg-rose fancy" href="popup-rdv.php">Obtenir le devis pour ces services</a></div>	
+			<div class="btn-presta"><a class="bg-rose fancy" href="popup-rdv.php">ça m'interesse</a></div>	
 		</div>		
 	</section>
 	<!-- fin liste presta homepage -->
 	
 	<!-- debut argu homepage -->
 	<div class="container argu">
-		<h2>Et tout ceci est inclus, quelque soit votre chiffre d’affaires, le nombre d’écritures comptables ou l’âge du capitaine.</h2>
+		<h2>Et tout ceci est inclus, quelque soit votre chiffres d’affaires, le nombre d’écritures comptables ou l’âge du capitaine. <a href="popup-devis.php" class="rose fancy">Obtenez un devis, rencontrons-nous</a></h2>
 		<p class="mention">(venez au cabinet ou retrouvons-nous à votre convenance dans toute l’ile de France)</p>
 	</div>
 	<!-- fin argu homepage -->
@@ -220,7 +219,7 @@
 	
 		<div class="container form-footer">
 
-			<h3>Cher Novaa, j’ai beaucoup apprécié votre site, et je souhaiterais :</h3>
+			<h3>Cher Novaa, j’ai beaucoup apprécié votre site, et je souhaiterai :</h3>
 		
 			<ul class="foutu-footer">
 				<li><a href="#" onclick="return false;" class="icon-rencontre">Vous rencontrer</a></li>
@@ -229,7 +228,7 @@
 				<li><a href="#" onclick="return false;" class="icon-devis">Obtenir un devis</a></li>
 			</ul>
 
-			<form class="formulaire-footer" style="display: none;" method="post" action="merci.php">
+			<form class="formulaire-footer" style="display: none;" method="post" action="/site/merci.php">
 				<p><label for="nom-lead-footer">Je m'appelle</label><input type="text" id="nom-lead-footer" name="nom-lead-footer" type="text" placeholder="Votre nom ici" /></p>
 				<p><label for="postal-lead-footer">J'habite à </label><input type="text" id="postal-lead-footer" name="postal-lead-footer"  placeholder="Code postal ou ville" type="text" /></p>
 				<p><label for="email-lead-footer">Vous pouvez m'écrire un email à l'adresse</label><input type="text" id="email-lead-footer" placeholder="Mon adresse email" name="email-lead-footer" type="text" /></p>
@@ -243,7 +242,7 @@
 	
 	<div id="under-footer">
 		<div class="container">
-		<p>Vous pouvez également nous rendre visite à Paris 11 rue Scribe (9<sup>ème</sup>) ou à Rouen, au 57 avenue de Bretagne</p>
+		<p>Vous pouvez également nous rendre visite au 11 rue Scribe à Paris (derrière l’Opéra Garnier), ou nous téléphoner au 01 53 83 78 30</p>
 		</div>
 	</div>
 	<!-- fin footer -->

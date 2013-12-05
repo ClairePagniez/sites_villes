@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Bonjour, vous êtes chez Novaa, cabinet d'expertise comptable à Paris*</title>
+  <title>Bonjour, vous êtes chez Novaa, cabinet d'expertise comptable à Paris</title>
   <link rel="stylesheet" href="css/style-novaa.css">
   <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css">
   <link rel="stylesheet" href="css/reset.css">  
@@ -22,15 +22,16 @@
 <body>
 	<header>
 		<nav class="container">
-				<a href="http://secure.tiime.fr" class="cta-login">Accès client</a>
+				<a href="https://www.comptaneo.com" class="cta-login">Accès client</a>
 
 			<ul>
 				<li><a href="index.php"><img src="images/logo-novaa.png" alt="Voici le joli logo de novaa" /></a></li>
+				<li class="prems">Vous <br />souhaitez</li>
 				<li><a href="creer.php" title="Créez votre boite avec nous">Cr&eacute;er<br /> une entreprise</a></li>
 				<li><a href="trouver.php" title="Voici comment notre expertise opère">Trouver votre <br /> expert comptable</a></li>
 				<li><a href="obtenir.php" title="Notre meilleur prix pour vous">Obtenir <br /> nos tarifs</a></li>
 				<li><a href="savoir.php" title="Tout, tout, tout, vous saurez tout sur le cabinet">En savoir + <br /> sur Novaa</a></li>
-				<li class="tel-contact rose">Paris 9, 11 rue Scribe  - 01 53 83 78 30<br><span class="violine tel-contact" >Rouen, 57 av. de Bretagne - 02 32 08 18 18</span></li>
+				<li class="tel-contact rose">01 53 83 78 30</span><br><span>11 rue Scribe Paris 9</span></li>
 			</ul>
 		</nav>
 	</header>
@@ -40,8 +41,8 @@
 	<!-- Debut CTA lateraux  -->
 	<a href="https://www.comptaneo.com" class="cta-login">Accès client</a>
 
-	<a href="popup-rappel.php" class="fancy cta-rappel">Rappelez moi</a>
-	<a href="popup-devis.php" class="fancy cta-devis">Devis gratuit</a>
+	<a href="http://novaa-expertise.com/popup-rappel.php" class="fancy cta-rappel">Rappelez moi</a>
+	<a href="http://novaa-expertise.com/popup-devis.php" class="fancy cta-devis">Devis gratuit</a>
 	<!-- Fin CTA lateraux  -->
 
 	
@@ -82,7 +83,7 @@
 		</div>
 		</div>
 			<div id="hp-form">
-				<form class="formulaire" method="post" action="merci.php">
+				<form class="formulaire" method="post" action="/site/merci.php">
 					<h2 class="blanc">Rencontrez notre cabinet comptable:<br /><span>Prenez RDV ou obtenez un DEVIS</span></h2>
 					<p><label for="nom-lead">Nom</label><input type="text" id="nom-lead" name="nom-lead" type="text" /></p>
 					<p><label for="activite-lead">Activité</label><input type="text" id="activite-lead" name="activite-lead" type="text" /></p>
@@ -220,7 +221,7 @@
 	
 		<div class="container form-footer">
 
-			<h3>Cher Novaa, j’ai beaucoup apprécié votre site, et je souhaiterais :</h3>
+			<h3>Cher Novaa, j’ai beaucoup apprécié votre site, et je souhaiterai :</h3>
 		
 			<ul class="foutu-footer">
 				<li><a href="#" onclick="return false;" class="icon-rencontre">Vous rencontrer</a></li>
@@ -229,7 +230,7 @@
 				<li><a href="#" onclick="return false;" class="icon-devis">Obtenir un devis</a></li>
 			</ul>
 
-			<form class="formulaire-footer" style="display: none;" method="post" action="merci.php">
+			<form class="formulaire-footer" style="display: none;" method="post" action="/site/merci.php">
 				<p><label for="nom-lead-footer">Je m'appelle</label><input type="text" id="nom-lead-footer" name="nom-lead-footer" type="text" placeholder="Votre nom ici" /></p>
 				<p><label for="postal-lead-footer">J'habite à </label><input type="text" id="postal-lead-footer" name="postal-lead-footer"  placeholder="Code postal ou ville" type="text" /></p>
 				<p><label for="email-lead-footer">Vous pouvez m'écrire un email à l'adresse</label><input type="text" id="email-lead-footer" placeholder="Mon adresse email" name="email-lead-footer" type="text" /></p>
@@ -243,7 +244,7 @@
 	
 	<div id="under-footer">
 		<div class="container">
-		<p>Vous pouvez également nous rendre visite à Paris 11 rue Scribe (9<sup>ème</sup>) ou à Rouen, au 57 avenue de Bretagne</p>
+		<p>Vous pouvez également nous rendre visite au 11 rue Scribe à Paris (derrière l’Opéra Garnier), ou nous téléphoner au 01 53 83 78 30</p>
 		</div>
 	</div>
 	<!-- fin footer -->
