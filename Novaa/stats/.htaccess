@@ -1,4 +1,0 @@
-AuthName "Accès protégé"
-AuthType Basic
-Require valid-user
-AuthUserFile /home/web/novaa-expertise.com/stats/www/.htpasswd
