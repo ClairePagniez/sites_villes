@@ -40,7 +40,9 @@
 	<a href="popup-devis.php" class="fancy cta-devis">Devis gratuit</a>
 	<!-- Fin CTA lateraux  -->
 
-	
+	<div id = "supertest">
+	On ajoute une div au hasard pour faire joli youpi!
+	</div>
 
 	<div class="clearfix"></div>
 	<section id="creation">
